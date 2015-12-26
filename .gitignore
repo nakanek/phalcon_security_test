@@ -1,1 +1,3 @@
 app/cache/*
+phalcon.log
+!.gitkeep
