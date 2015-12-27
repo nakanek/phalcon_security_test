@@ -109,3 +109,8 @@ $di->set('security', function() {
     return $security;
 }, true);
 
+$di->set('router', function() {
+    require __DIR__ . '/routes.php';
+    return $router;
+});
+
